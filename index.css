@@ -104,46 +104,38 @@ margin-top: 3px;
 
 /* thirdPagestarts from here  */
 
-#thirdPage {
+#thirdPage{
+/* width: 100%; */
+height: 100vh;
+background-image: url(./images/green\ chess\ pieces.jpg);
 
-background-color: #40cbf5;
-    padding-left: 60px;
-width: 100%;
-    height: 100vh;
-     overflow: scroll;
-     display: grid;
-     
-     
-    
-     
 }
+.heading{
+font-size: xxx-large;
+margin-left: 46.5%;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+color: white;
 
-#thirdPage h1{
-    display: flex;
-    justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: xxx-large;
-    color: #ffffff;
 }
-
-/* .shorts{
-gap: 12px;
-
-} */
- /* .container{
-border: 2px solid red;
-width: 100%;
-height :150px;
-
-
- } */
 .shorts{
-    width: 150px;
-    height: 50vh;
-    display: flex;
-    
-    
+display: flex;
+justify-content: space-between;
+gap: 60px;
+margin: 10px;
+padding-left: 10px;
+overflow-x: scroll;
+
 }
+
+.shorts video{
+
+/* width:; */
+height: 86vh;
+
+}
+
+   
 /* fourthPage starts from here */
 
 #fourthPage{
