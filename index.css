@@ -84,22 +84,19 @@ margin-top: 3px;
 
 }
 .screenShots img{
-    width: 368px;
+    width: 300px;
     height: 100vh;
 }
 
 /* secondPagestarts from here  */
 
 #secondPage{
-    background-image: url(./);
+    background-image: url(./images/chess\ fire\ blues.jpg);
     background-attachment: fixed;
     /* position: relative; */
- 
-}
-#secondPage img{
+    /* border: 2px solid red; */
     width: 100%;
     height: 100vh;
-   
 }
 
 /* thirdPagestarts from here  */
@@ -107,10 +104,11 @@ margin-top: 3px;
 #thirdPage{
 /* width: 100%; */
 height: 100vh;
-background-image: url(./images/green\ chess\ pieces.jpg);
+background-image: url(./images/chess\ board.webp);
+/* background-color: #D3AF37; */
 
 }
-.heading{
+#thirdPage .heading{
 font-size: xxx-large;
 margin-left: 46.5%;
 font-family: 'Courier New', Courier, monospace;
@@ -118,11 +116,11 @@ font-weight: bold;
 color: white;
 
 }
-.shorts{
+#thirdPage .shorts{
 display: flex;
 justify-content: space-between;
 gap: 60px;
-margin: 10px;
+/* margin: 10px; */
 padding-left: 10px;
 overflow-x: scroll;
 
@@ -131,7 +129,7 @@ overflow-x: scroll;
 .shorts video{
 
 /* width:; */
-height: 86vh;
+height: 90vh;
 
 }
 
@@ -165,7 +163,11 @@ width: 100%;
     height: 550px;
     padding: 10px;
     gap: 10px;
+    
 
+}
+#text{
+  display: block;
 }
 
 .imageChessBoard img{
@@ -264,3 +266,41 @@ overflow: auto;
      background-color: rgb(151, 229, 229);
      height: 50px;
 }
+
+/* @media(max-width:430px){
+  #navbar{
+background-color: yellow;
+
+  }
+.catchers img{
+    width:350px;
+  }
+#fourthPage{
+  display: none;
+  }
+  #navbar nav ul{
+display: none;
+
+
+  }
+  #check :checked~#navbar nav ul{
+
+display: block;
+position:absolute;
+top: 100%;
+left: 0px;
+width: 100%;
+background-color: #D3AF37;
+text-align: center;
+line-height: 30px;
+
+  } */
+/* #fourthPage {
+
+  overflow-y: scroll;
+} */
+
+  /* #text{
+  display: none;
+} */
+/* } */
