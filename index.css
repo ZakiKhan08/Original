@@ -64,6 +64,13 @@ font-size: xx-large;
     color: #D3AF37;
 }
 
+
+
+
+
+
+
+
 /* fisrtPage starts from here */
 
 #firstPage{
@@ -101,6 +108,11 @@ margin-top: 3px;
     height: 100vh;
 }
 
+
+
+
+
+
 /* secondPagestarts from here  */
 
 #secondPage{
@@ -111,6 +123,11 @@ margin-top: 3px;
     width: 100%;
     height: 100vh;
 }
+
+
+
+
+
 
 /* thirdPagestarts from here  */
 
@@ -147,6 +164,12 @@ height: 90vh;
 }
 
    
+
+
+
+
+
+
 /* fourthPage starts from here */
 
 #fourthPage{
@@ -189,6 +212,12 @@ height: 530px;
 border-radius: 300px;
 
 }
+
+
+
+
+
+
 
 /* fifthPage starts from here */
 
@@ -280,21 +309,23 @@ overflow: auto;
      height: 50px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:430px){
-  #navbar{
-/* background-color: yellow; */
-/* display: none; */
-/* height: 100vh; */
-
-  }
-  #navbar ul{
-display: none;
-  }
-
-  #navbar ul li{
-    border: 1px solid green;
-    
-  }
+ 
   #bar{
     padding-top: 18px;
     padding-left: 5px;
@@ -306,20 +337,8 @@ display: none;
     z-index: 20;
     /* right: 50px; */
   }
-  #navbar ul li a{
-    color: black;
-    font-size: small;
-    
-  }
-  #navbar ul li a:hover{
-    color: #D3AF37;
-}
-  #bar:focus-within>bar{
 
-
-  }
-
-   #check:checked~header #navbar ul{
+  #check:checked~header #navbar ul{
 
 display: block;
 position:absolute;
@@ -336,12 +355,50 @@ z-index: 10;
 
   #check{
     display: none;
+ }
+
+   #navbar{
+/* background-color: yellow; */
+/* display: none; */
+/* height: 100vh; */
 
   }
+  #navbar ul{
+display: none;
+  }
+
+  #navbar ul li{
+    border: 1px solid green;
+    
+  }
+
+  #navbar ul li a{
+    color: black;
+    font-size: small;
+    
+  }
+  #navbar ul li a:hover{
+    color: #D3AF37;
+}
+
+#check:checked~#navbar nav ul li a{
+    display: block;
+  }
+
+  #bar:focus-within>bar{
+
+
+  }
+
 
 .catchers img{
     width:350px;
   }
+
+
+
+
+
 #fourthPage{
   display: none;
     /* overflow-y: scroll; */
@@ -349,9 +406,7 @@ z-index: 10;
   }
   
  
-  #check:checked~#navbar nav ul li a{
-    display: block;
-  }
+  
 
 
   /* #text{
